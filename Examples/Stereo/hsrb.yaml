@@ -15,11 +15,11 @@ Camera.k2: 0.0
 Camera.p1: 0.0
 Camera.p2: 0.0
 
-Camera.width: 752
-Camera.height: 480
+Camera.width: 1280
+Camera.height: 960
 
 # Camera frames per second 
-Camera.fps: 20.0
+Camera.fps: 3.45
 
 # stereo baseline times fx
 Camera.bf: 47.90639384423901
@@ -34,8 +34,8 @@ ThDepth: 35
 # Stereo Rectification. Only if you need to pre-rectify the images.
 # Camera.fx, .fy, etc must be the same as in LEFT.P
 #--------------------------------------------------------------------------------------------
-LEFT.height: 480
-LEFT.width: 752
+LEFT.height: 960
+LEFT.width: 1280
 LEFT.D: !!opencv-matrix
    rows: 1
    cols: 5
@@ -57,8 +57,8 @@ LEFT.P:  !!opencv-matrix
    dt: d
    data: [435.2046959714599, 0, 367.4517211914062, 0,  0, 435.2046959714599, 252.2008514404297, 0,  0, 0, 1, 0]
 
-RIGHT.height: 480
-RIGHT.width: 752
+RIGHT.height: 960
+RIGHT.width: 1280
 RIGHT.D: !!opencv-matrix
    rows: 1
    cols: 5
